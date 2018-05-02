@@ -33,12 +33,7 @@ CREATE TABLE `actu` (
   `image` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Contenu de la table `actu`
---
 
-INSERT INTO `actu` (`id`, `titre`, `contenu`, `image`) VALUES
-(4, 'fuck', 'kh fjfyu u', 'image.5ae97913be1ca.jpg');
 
 -- --------------------------------------------------------
 
@@ -56,7 +51,7 @@ CREATE TABLE `actualite` (
 --
 
 INSERT INTO `actualite` (`id`, `actualite_id`) VALUES
-(1, 4);
+(1, 1);
 
 -- --------------------------------------------------------
 
@@ -122,7 +117,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
-(1, 'Chacha', 'Chacha12');
+(1, 'user', 'password');
 
 -- --------------------------------------------------------
 
